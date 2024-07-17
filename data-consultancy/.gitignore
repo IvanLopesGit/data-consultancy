@@ -1,0 +1,54 @@
+# Ignore o diretório do ambiente virtual
+myenv/
+.myenv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Arquivos de depuração de teste de unidade
+*.cover
+.hypothesis/
+
+# Arquivos de configuração do IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+*.pid
+*.seed
+*.bak
+*.swp
+*.swo
+
+# Arquivos de cache
+*.cache
+*.npy
+*.pkl
+
+# Arquivos de configuração do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos de banco de dados
+*.sqlite
+*.db
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de controle de versão do sistema operacional
+.Spotlight-V100
+.Trashes
