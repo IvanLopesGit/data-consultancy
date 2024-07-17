@@ -1,3 +1,4 @@
+"Entry point for running the Flask application."
 from app import creat_app
 
 app = creat_app()

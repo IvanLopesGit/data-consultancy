@@ -1,6 +1,6 @@
 # Ignore o diretório do ambiente virtual
-myenv/
-.myenv/
+venv/
+.venv/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

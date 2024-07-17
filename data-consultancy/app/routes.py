@@ -1,7 +1,10 @@
+"Defines the routes for the Flask application."
 from flask import Blueprint, render_template
 
 main = Blueprint('main', __name__)
 
+
 @main.route('/')
 def index():
-    return render_template('index.html')
+    "Render the index page."
+    return render_template('home.html')
