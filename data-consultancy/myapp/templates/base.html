@@ -1,0 +1,24 @@
+<!DOCTYOPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+              content="Site para simulação de soluções com dados.">
+        <meta name="keywords" content="">
+        <title>
+            {% block title %}
+            {% endblock title %}
+        </title>
+        {% comment %} <link rel="stylesheet" href="{% static 'css/styles.scss' %}"> {% endcomment %}
+    </head>
+    <body>
+        {% comment %} {% include 'navbar.html' %} {% endcomment %}
+        <div class="base-container">
+            {% block content %}
+            {% endblock content %}
+        </div>
+        {% comment %} {% include 'footer.html' %} {% endcomment %}
+        {% comment %} <script src="{% static 'js/scripts.js' %}"></script> {% endcomment %}
+    </body>
+</html>
