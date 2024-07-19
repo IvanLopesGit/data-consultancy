@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+    "outDir": "./myapp/static/js",
+    "rootDir": "./myapp/static/ts",
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+    },
+        "include": [
+        "./myapp/static/ts/**/*"
+    ],
+        "exclude": [
+        "./myapp/static/js",
+        "node_modules"
+    ]
+}
+
+// npm run start
