@@ -1,11 +1,19 @@
+{% comment %} Como chamar um arquivo de modelo para desenvolvimento {% endcomment %}
 {% extends "base.html" %}
+
+{% comment %} Sempre que tiver uso de arquivo estático deve-se fazer o load {% endcomment %}
+{% load static %}
 
 {% block title %}
     Consultoria com Base em Dados - Ivan
 {% endblock title %}
 
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock extra_css %}
+
 {% block content %}
-    Ivan Lopes
+    <div class="home-container">
+        <div class="background-img">teste 111</div>
+    </div>
 {% endblock content %}
-    
-    
