@@ -15,9 +15,9 @@
         {% block extra_css %}
         {% endblock extra_css %}
     </head>
-    <body>
+    <body class="{% block body_class %}{% endblock body_class %}">
         {% comment %} {% include 'navbar.html' %} {% endcomment %}
-        <div class="base-container">
+        <div>
             {% block content %}
             {% endblock content %}
         </div>
