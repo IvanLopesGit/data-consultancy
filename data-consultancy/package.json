@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"python manage.py runserver\" \"npx sass --watch myapp/static/scss:myapp/static/css\" \"npx tsc --watch\" \"npm run browser-sync\" \"npm run open\"",
-    "browser-sync": "browser-sync start --proxy localhost:8000 --files 'myapp/templates/**/*.html, myapp/static/css/**/*.css, myapp/static/js/**/*.js' --no-notify --no-open --ui false",
+    "browser-sync": "browser-sync start --proxy localhost:8000 --files 'myapp/templates/**/*.html, myapp/static/css/**/*.css, myapp/static/js/**/*.js' --no-notify --no-open",
     "open": "npx open-cli http://localhost:8000"
   },
   "keywords": [],

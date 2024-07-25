@@ -15,15 +15,13 @@
     </head>
     <body class="{% block body_class %}{% endblock body_class %}">
         <header>
-            <h1>Consultoria com Base em Dados - Ivan</h1>
+            {% include "menu.html" %}
+            <div class="header-content">Transforme Dados em Decisões
+                <p>Capacitando sua empresa com insights valiosos</p>
+            </div>
         </header>
         {% comment %} {% include 'navbar.html' %} {% endcomment %}
         <div class="right-side-gradient"></div>
-        <main>
-            <div class="content">
-                <!-- Conteúdo da página -->
-            </div>
-        </main>
             {% block content %}
             {% endblock content %}
         {% comment %} {% include 'footer.html' %} {% endcomment %}

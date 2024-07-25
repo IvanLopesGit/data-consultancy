@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    width: 1.3rem;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-bar {
+    width: 25px;
+    height: 3px;
+    background-color: #BDC3C7;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    background-color: #0A3D62; 
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu li a {
+    color: #BDC3C7;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.menu.active {
+    display: flex;
+}
