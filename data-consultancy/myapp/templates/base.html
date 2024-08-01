@@ -20,15 +20,15 @@
                 <p>Capacitando sua empresa com insights valiosos</p>
             </div>
         </header>
-        {% comment %} {% include 'navbar.html' %} {% endcomment %}
         <div class="right-side-gradient"></div>
             {% block content %}
             {% endblock content %}
-        {% comment %} {% include 'footer.html' %} {% endcomment %}
         {% comment %} <script src="{% static 'js/scripts.js' %}"></script> {% endcomment %}
 
         <footer>
             {% comment %} <p>&copy; 2024 Ivan Lopes Alonso - Consultoria de Dados</p> {% endcomment %}
         </footer>
+
+        <script src="{% static 'js/menu.js' %}"></script>
     </body>
 </html>
