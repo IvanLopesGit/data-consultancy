@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% comment %} Como chamar um arquivo de modelo para desenvolvimento {% endcomment %}
+
+{% comment %} Sempre que tiver uso de arquivo estático deve-se fazer o load {% endcomment %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock extra_css %}
+
+{% block body_class %}
+{% endblock body_class %}
+
+{% block content %}
+    <div class="content-container">
+        <div>
+            <p class="titles">
+                Bem-vindo à DataVision.
+            </p>
+            <p>
+                Transformando Dados em Decisões Estratégicas.
+            </p>
+        </div> 
+
+        <div>
+            <p>Na DataVision, ofereço uma abordagem única e 
+                personalizada para transformar seus dados em decisões estratégicas.
+            </p>
+            <p>Como consultor individual com expertise em análise de dados, 
+                trabalho diretamente com você para entender suas necessidades e 
+                oferecer soluções que fazem a diferença.
+            </p>
+        </div>
+
+        <div>
+            Meus serviços:
+            <div>
+                <p>
+                    Análise de Dados Personalizada:
+                </p>
+                <p>
+                    Desenvolvo soluções sob medida, desde dashboards interativos até modelos preditivos, 
+                    para atender às suas necessidades específicas.
+                </p>                                     
+            </div>
+            <div>
+                <p>
+                    Consultoria Estratégica:
+                </p>
+                <p>
+                    Com uma abordagem colaborativa, ajudo a identificar desafios e oportunidades, 
+                    oferecendo estratégias baseadas em dados para otimizar seu negócio.
+                </p>
+            </div>
+            <div>
+                <p>
+                    Implementação de Soluções:
+                </p>
+                <p>
+                    Cuido da implementação de ferramentas e tecnologias analíticas, 
+                    garantindo que você tenha tudo o que precisa para tomar decisões informadas.
+                </p>
+            </div>
+        </div>
+
+        <div>
+            Por que escolher a DataVision?
+            <div>
+                <p>
+                    Expertise Individualizada: 
+                </p>
+                <p>
+                    Como consultor dedicado, ofereço um atendimento personalizado e conhecimento na área de dados, 
+                    garantindo resultados precisos e relevantes.
+                </p>
+            </div>
+            <div>
+                <p>
+                    Compromisso com a Excelência:
+                </p>
+                <p>
+                    Minha missão é entregar insights e soluções que realmente impactem o seu negócio, 
+                    com um foco incansável na qualidade e na eficácia.
+                </p>
+            </div>
+            <div>
+                <p>
+                    Abordagem Pessoal e Colaborativa: 
+                </p>
+                <p>
+                    Acredito que a melhor maneira de alcançar resultados é através de uma colaboração 
+                    próxima e transparente, garantindo que suas necessidades sejam sempre atendidas.
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
