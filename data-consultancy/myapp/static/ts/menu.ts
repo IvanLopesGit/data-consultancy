@@ -6,14 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Verifica se os elementos existem antes de adicionar eventos
     if (menuToggle && menu) {
         menuToggle.addEventListener('click', (event) => {
-            event.stopPropagation(); // Previne que o clique no menuToggle feche o menu
+            event.stopPropagation();
             menu.classList.toggle('active');
             body.classList.toggle('menu-open');
         });
     }
 
+    // Verifica se o clique foi fora do menu e do menuToggle
     document.addEventListener('click', (event) => {
-        // Verifica se o clique foi fora do menu e do menuToggle
         if (menu.classList.contains('active') && !menu.contains(event.target as Node) && !menuToggle.contains(event.target as Node)) {
             menu.classList.remove('active');
             body.classList.remove('menu-open');
