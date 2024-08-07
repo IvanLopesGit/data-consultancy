@@ -5,14 +5,46 @@
     margin: 0 auto;
 
     div {
-        margin-bottom: 20px; /* Espaço entre as seções */
+        margin-bottom: 20px 20px 0 20px;
     }
     
     p {
-        margin: 10px 0; /* Espaço entre os parágrafos */
+        margin: 0;
     }
 
     .titles {
-        
+        font-size: 2rem;
+        font-weight: 700;
     }
+
+    .subtitles {
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .text-options {
+        line-height: 1.4rem;
+        letter-spacing: 0.08rem;
+    }
+
+    div {        
+        p {
+            padding-bottom: 0.8rem;
+
+            &:nth-child(1) {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 1rem;
+            }
+        }
+    } 
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.italic {
+    font-style: italic;
 }
