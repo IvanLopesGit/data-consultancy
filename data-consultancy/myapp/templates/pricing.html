@@ -1,7 +1,46 @@
 {% extends "base.html" %}
 {% load static %}
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" href="{% static 'css/pricing.css' %}">
 {% endblock extra_css %}
 {% block body_class %}
 {% endblock body_class %}
+
+{% block content %}
+    <div class="content-container">
+        <p class="titles">
+            Trabalhamos com dois tipos de contrato:
+        </p>
+        <p>
+            <span class="bold subtitles-contrast">Mensal </span>
+            <p>
+                <span class="bold subtitles">Pequenos Projetos/Startups: </span>
+                <span class="italic">Entre R$ 5.000 a R$ 10.000 por mês.</span>
+            </p>
+            <p>
+                <span class="bold subtitles">Projetos Médios: </span>
+                <span class="italic">Entre R$ 10.000 a R$ 25.000 por mês.</span>
+            </p>
+            <p>
+                <span class="bold subtitles">Grandes Projetos: </span>
+                <span class="italic">Entre R$ 25.000 ou mais.</span>
+            </p>
+        </p>
+        <p>
+            <span class="bold subtitles-contrast">Horas</span>
+            <p>
+                <span class="italic">Entre R$ 100 a R$ 250 por hora</span>
+            </p>
+        </p>
+        
+        <p class="bold italic subtitles-info">
+            Dependendo do tipo e tamanho do projeto os valores podem ser diferentes, 
+        </p>
+        <p class="bold italic subtitles-info">
+            se encaixando na margem sugerida acima.
+        </p>
+        <p class="bold italic subtitles-info">
+            Entre em contato para fazer um orçamento.
+        </p>
+    </div>
+{% endblock content %}
