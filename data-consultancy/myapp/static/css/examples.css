@@ -1,0 +1,32 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.4rem;
+  letter-spacing: 0.08rem;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.titles {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.graphics {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+.graphics p {
+  margin: 1.2rem 0 0;
+}
+
+/*# sourceMappingURL=examples.css.map */

@@ -1,0 +1,18 @@
+img {
+    border: none;
+}
+
+.tableauPlaceholder {
+    position: relative;
+
+    &-temporal {
+        width: 42rem !important;
+        height: 28rem !important;
+    }
+}
+
+.tableauViz-temporal {
+    display: none;
+    width: 42rem !important;
+    height: 30rem;
+}

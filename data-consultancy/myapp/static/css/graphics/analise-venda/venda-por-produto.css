@@ -1,0 +1,22 @@
+img {
+  border: none;
+}
+
+.tableauPlaceholder {
+  position: relative;
+}
+.tableauPlaceholder-por-produto {
+  width: 37rem !important;
+  height: 15rem !important;
+}
+
+.tableauViz {
+  display: none;
+  width: 27rem;
+}
+.tableauViz-por-produto {
+  height: 16.5rem;
+  width: 33rem !important;
+}
+
+/*# sourceMappingURL=venda-por-produto.css.map */

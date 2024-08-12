@@ -1,0 +1,22 @@
+img {
+  border: none;
+}
+
+.tableauPlaceholder {
+  position: relative;
+}
+.tableauPlaceholder-produto-por-regiao {
+  width: 37rem !important;
+  height: 20rem !important;
+}
+
+.tableauViz {
+  display: none;
+  width: 27rem;
+}
+.tableauViz-produto-por-regiao {
+  height: 22rem;
+  width: 41rem !important;
+}
+
+/*# sourceMappingURL=produto-por-regiao.css.map */

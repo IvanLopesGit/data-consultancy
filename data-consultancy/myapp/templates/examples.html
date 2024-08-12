@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/examples.css' %}">
+{% endblock extra_css %}
+{% block body_class %}
+{% endblock body_class %}
+
+{% block content %}
+
+<div class="content-container">
+    <div class="graphics">
+        <p class="titles">
+            Análise de Venda e Performance
+        </p>
+        <div>
+            {% include "graphics/analise-venda/analise-venda.html" %}
+        </div>
+        <div>
+            {% include "graphics/analise-venda/produto-por-regiao.html" %}
+        </div>
+        <div>
+            {% include "graphics/analise-venda/venda-por-produto.html" %}
+        </div>
+        <div>
+            {% include "graphics/analise-venda/analise-temporal.html" %}
+        </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,19 @@
+img {
+  border: none;
+}
+
+.tableauPlaceholder {
+  position: relative;
+}
+.tableauPlaceholder-receita {
+  width: 37rem !important;
+  height: 11rem !important;
+}
+
+.tableauViz-vendas {
+  display: none;
+  width: 42rem !important;
+  height: 13rem;
+}
+
+/*# sourceMappingURL=analise-venda.css.map */

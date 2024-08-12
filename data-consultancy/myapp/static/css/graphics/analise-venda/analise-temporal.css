@@ -1,0 +1,19 @@
+img {
+  border: none;
+}
+
+.tableauPlaceholder {
+  position: relative;
+}
+.tableauPlaceholder-temporal {
+  width: 42rem !important;
+  height: 28rem !important;
+}
+
+.tableauViz-temporal {
+  display: none;
+  width: 42rem !important;
+  height: 30rem;
+}
+
+/*# sourceMappingURL=analise-temporal.css.map */

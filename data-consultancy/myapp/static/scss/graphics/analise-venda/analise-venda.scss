@@ -1,0 +1,18 @@
+img {
+    border: none;
+}
+
+.tableauPlaceholder {
+    position: relative;
+
+    &-receita {
+        width: 37rem !important;
+        height: 11rem !important;
+    }
+}
+
+.tableauViz-vendas {
+    display: none;
+    width: 42rem !important;
+    height: 13rem;
+}
