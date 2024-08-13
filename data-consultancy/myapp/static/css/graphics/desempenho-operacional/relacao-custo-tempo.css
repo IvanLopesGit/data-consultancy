@@ -1,0 +1,19 @@
+img {
+  border: none;
+}
+
+.tableauPlaceholder {
+  position: relative;
+}
+.tableauPlaceholder-custo-tempo {
+  width: 50rem !important;
+  height: 28rem !important;
+}
+
+.tableauViz-custo-tempo {
+  display: none;
+  width: 50rem !important;
+  height: 30rem;
+}
+
+/*# sourceMappingURL=relacao-custo-tempo.css.map */

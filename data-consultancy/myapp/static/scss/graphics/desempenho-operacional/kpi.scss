@@ -1,0 +1,18 @@
+img {
+    border: none;
+}
+
+.tableauPlaceholder {
+    position: relative;
+
+    &-kpi {
+        width: 50rem !important;
+        height: 16rem !important;
+    }
+}
+
+.tableauViz-kpi {
+    display: none;
+    width: 50rem !important;
+    height: 30rem;
+}

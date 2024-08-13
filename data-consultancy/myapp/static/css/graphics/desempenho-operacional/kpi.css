@@ -1,0 +1,19 @@
+img {
+  border: none;
+}
+
+.tableauPlaceholder {
+  position: relative;
+}
+.tableauPlaceholder-kpi {
+  width: 50rem !important;
+  height: 16rem !important;
+}
+
+.tableauViz-kpi {
+  display: none;
+  width: 50rem !important;
+  height: 30rem;
+}
+
+/*# sourceMappingURL=kpi.css.map */
