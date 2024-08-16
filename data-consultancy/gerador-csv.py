@@ -1,45 +1,47 @@
-import random
 from datetime import datetime, timedelta
 
+import numpy as np
 import pandas as pd
 
+# Configurações
+np.random.seed(0)  # Para reprodutibilidade
+num_rows = 300
+start_date = datetime(2023, 1, 1)
+date_range = [start_date + timedelta(days=i) for i in range(num_rows)]
+categories = [
+    "Marketing",
+    "Salários",
+    "Manutenção",
+    "Suprimentos",
+    "Serviços",
+    "Outros",
+]
 
-# Função para gerar uma data aleatória dentro de um intervalo
-def random_date(start_date, end_date):
-    return start_date + timedelta(days=random.randint(0, (end_date - start_date).days))
-
-
-# Configurações iniciais
-start_date = datetime(2024, 1, 1)
-end_date = datetime(2024, 6, 30)
-n_records = 500
-
-# Dados de exemplo
+# Gerar dados fictícios
 data = {
-    "ID": range(1, n_records + 1),
-    "Data": [
-        random_date(start_date, end_date).strftime("%Y-%m-%d") for _ in range(n_records)
-    ],
-    "Produção (unidades)": [random.randint(130, 170) for _ in range(n_records)],
-    "Tempo de Entrega (horas)": [
-        round(random.uniform(20, 30), 2) for _ in range(n_records)
-    ],
-    "Custo Operacional ($)": [
-        round(random.uniform(1100, 1300), 2) for _ in range(n_records)
-    ],
-    "Eficiência de Produção (%)": [
-        round(random.uniform(65, 85), 2) for _ in range(n_records)
-    ],
-    "Unidades Planejadas": [200 for _ in range(n_records)],
-    "Turnover de Funcionários (%)": [
-        round(random.uniform(3, 7), 2) for _ in range(n_records)
-    ],
-    "Feedback dos Clientes (0-10)": [
-        round(random.uniform(5, 9), 2) for _ in range(n_records)
-    ],
+    "Data": [date_range[i].strftime("%Y-%m-%d") for i in range(num_rows)],
+    "Receita": np.random.uniform(1000, 5000, num_rows).round(2),
+    "Despesas": np.random.uniform(500, 2000, num_rows).round(2),
+    "Investimentos": np.random.uniform(100, 1000, num_rows).round(2),
 }
 
+# Calcular Lucro e Fluxo de Caixa
+data["Lucro"] = (data["Receita"] - data["Despesas"]).round(2)
+data["Fluxo de Caixa"] = (
+    data["Receita"] - data["Despesas"] + data["Investimentos"].round(2)
+)
+
+# Adicionar categoria de despesas
+data["Categoria de Despesa"] = np.random.choice(categories, num_rows)
+
+# Calcular Desempenho Financeiro
+data["Desempenho Financeiro"] = (data["Receita"] / (data["Despesas"] + 1)).round(
+    2
+)  # Adiciona 1 para evitar divisão por zero
+
+# Criar DataFrame e salvar como CSV
 df = pd.DataFrame(data)
-df.to_csv("performance_data.csv", index=False)
-df = pd.DataFrame(data)
-df.to_csv("performance_data.csv", index=False)
+df.to_csv("analise_financeira.csv", index=False)
+
+print("Arquivo CSV 'analise_financeira.csv' criado com sucesso!")
+print("Arquivo CSV 'analise_financeira.csv' criado com sucesso!")

@@ -1,0 +1,19 @@
+img {
+  border: none;
+}
+
+.tableauPlaceholder {
+  position: relative;
+}
+.tableauPlaceholder-despesas-categoria {
+  width: 50rem !important;
+  height: 28rem !important;
+}
+
+.tableauViz-despesas-categoria {
+  display: none;
+  width: 50rem !important;
+  height: 30rem;
+}
+
+/*# sourceMappingURL=despesas-por-categoria.css.map */

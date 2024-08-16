@@ -1,0 +1,18 @@
+img {
+    border: none;
+}
+
+.tableauPlaceholder {
+    position: relative;
+
+    &-receita-despesas {
+        width: 50rem !important;
+        height: 28rem !important;
+    }
+}
+
+.tableauViz-receita-despesas {
+    display: none;
+    width: 50rem !important;
+    height: 30rem;
+}
