@@ -9,11 +9,35 @@ img {
   width: 50rem !important;
   height: 28rem !important;
 }
+@media (max-width: 768px) {
+  .tableauPlaceholder-custo-tempo {
+    width: 100% !important;
+    height: 35rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauPlaceholder-custo-tempo {
+    width: 100% !important;
+    height: 35rem !important;
+  }
+}
 
 .tableauViz-custo-tempo {
   display: none;
   width: 50rem !important;
   height: 30rem;
+}
+@media (max-width: 768px) {
+  .tableauViz-custo-tempo {
+    width: 90% !important;
+    height: 38rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauViz-custo-tempo {
+    width: 90% !important;
+    height: 38rem !important;
+  }
 }
 
 /*# sourceMappingURL=relacao-custo-tempo.css.map */

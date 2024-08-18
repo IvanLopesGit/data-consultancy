@@ -1,24 +1,24 @@
-.content-container {
+.about-content-container {
   text-align: left;
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
 }
-.content-container div {
+.about-content-container div {
   margin-bottom: 20px 20px 0 20px;
 }
-.content-container p {
+.about-content-container p {
   margin: 0;
 }
-.content-container .titles {
+.about-content-container .titles {
   font-size: 1.3rem;
   font-weight: 700;
 }
-.content-container .text-options {
+.about-content-container .text-options {
   line-height: 1.4rem;
   letter-spacing: 0.08rem;
 }
-.content-container div p {
+.about-content-container div p {
   padding-bottom: 0.8rem;
 }
 

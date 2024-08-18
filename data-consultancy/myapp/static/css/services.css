@@ -1,32 +1,32 @@
-.content-container {
+.services-content-container {
   text-align: left;
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
 }
-.content-container div {
+.services-content-container div {
   margin-bottom: 20px 20px 0 20px;
 }
-.content-container p {
+.services-content-container p {
   margin: 0;
 }
-.content-container .titles {
+.services-content-container .titles {
   font-size: 2rem;
   font-weight: 700;
 }
-.content-container .subtitles {
+.services-content-container .subtitles {
   font-size: 1.2rem;
   font-weight: 600;
   font-style: italic;
 }
-.content-container .text-options {
+.services-content-container .text-options {
   line-height: 1.4rem;
   letter-spacing: 0.08rem;
 }
-.content-container div p {
+.services-content-container div p {
   padding-bottom: 0.8rem;
 }
-.content-container div p:nth-child(1) {
+.services-content-container div p:nth-child(1) {
   display: flex;
   justify-content: center;
   padding-bottom: 1rem;

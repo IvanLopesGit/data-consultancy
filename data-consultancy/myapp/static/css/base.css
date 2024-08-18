@@ -9,6 +9,18 @@ html, body {
   width: 100%;
   font-family: Merriweather, serif;
 }
+@media (max-width: 768px) {
+  html, body {
+    font-size: 14px;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  html, body {
+    font-size: 12px;
+    flex-direction: column;
+  }
+}
 
 header {
   width: 100%;
@@ -18,6 +30,16 @@ header {
   box-sizing: border-box;
   display: flex;
   align-items: center;
+}
+@media (max-width: 768px) {
+  header {
+    height: 5rem;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    height: 4rem;
+  }
 }
 header .header-content {
   font-size: 2rem;
@@ -30,6 +52,26 @@ header .header-content p {
   font-size: 1rem;
   margin: 0;
 }
+@media (max-width: 768px) {
+  header .header-content {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+  }
+  header .header-content p {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 480px) {
+  header .header-content {
+    font-size: 1.2rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+  }
+  header .header-content p {
+    font-size: 0.75rem;
+  }
+}
 
 .right-side-gradient {
   position: fixed;
@@ -39,6 +81,16 @@ header .header-content p {
   height: 100%;
   background: linear-gradient(to bottom, #0A3D62 1%, transparent 160%), linear-gradient(to left, #0A3D62 30%, #3498DB 80%);
   z-index: -1;
+}
+@media (max-width: 768px) {
+  .right-side-gradient {
+    width: 4.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .right-side-gradient {
+    width: 3.5rem;
+  }
 }
 
 /*# sourceMappingURL=base.css.map */

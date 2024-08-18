@@ -1,4 +1,4 @@
-/* menu.scss */
+/* _menu.scss */
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -8,19 +8,43 @@
   top: 0;
   right: 0;
 }
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1.5rem 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+}
 
 .menu-toggle {
   display: flex;
   flex-direction: column;
   cursor: pointer;
   z-index: 11;
+  width: 30px;
+  height: 22px;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .menu-toggle {
+    width: 25px;
+    height: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .menu-toggle {
+    width: 20px;
+    height: 15px;
+  }
 }
 
 .menu-bar {
-  width: 25px;
+  width: 100%;
   height: 3px;
   background-color: #BDC3C7;
-  margin: 4px 0;
   transition: all 0.3s ease;
 }
 
@@ -39,15 +63,47 @@
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
+@media (max-width: 768px) {
+  .menu {
+    width: 200px;
+    padding: 3rem;
+  }
+}
+@media (max-width: 480px) {
+  .menu {
+    width: 150px;
+    padding: 2rem;
+  }
+}
 
 .menu li {
   margin: 10px 0;
+}
+@media (max-width: 768px) {
+  .menu li {
+    margin: 8px 0;
+  }
+}
+@media (max-width: 480px) {
+  .menu li {
+    margin: 6px 0;
+  }
 }
 
 .menu li a {
   color: #BDC3C7;
   text-decoration: none;
   font-size: 1.2em;
+}
+@media (max-width: 768px) {
+  .menu li a {
+    font-size: 1em;
+  }
+}
+@media (max-width: 480px) {
+  .menu li a {
+    font-size: 0.9em;
+  }
 }
 
 .menu.active {

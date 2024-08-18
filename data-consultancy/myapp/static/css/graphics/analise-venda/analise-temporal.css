@@ -9,11 +9,35 @@ img {
   width: 42rem !important;
   height: 28rem !important;
 }
+@media (max-width: 768px) {
+  .tableauPlaceholder-temporal {
+    width: 95% !important;
+    height: 45rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauPlaceholder-temporal {
+    width: 95% !important;
+    height: 45rem !important;
+  }
+}
 
 .tableauViz-temporal {
   display: none;
   width: 42rem !important;
   height: 30rem;
+}
+@media (max-width: 768px) {
+  .tableauViz-temporal {
+    width: 90% !important;
+    height: 48rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauViz-temporal {
+    width: 90% !important;
+    height: 48rem !important;
+  }
 }
 
 /*# sourceMappingURL=analise-temporal.css.map */

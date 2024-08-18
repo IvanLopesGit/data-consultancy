@@ -9,6 +9,18 @@ img {
   width: 37rem !important;
   height: 15rem !important;
 }
+@media (max-width: 768px) {
+  .tableauPlaceholder-por-produto {
+    width: 90% !important;
+    height: 16rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauPlaceholder-por-produto {
+    width: 90% !important;
+    height: 16rem !important;
+  }
+}
 
 .tableauViz {
   display: none;
@@ -17,6 +29,18 @@ img {
 .tableauViz-por-produto {
   height: 16.5rem;
   width: 33rem !important;
+}
+@media (max-width: 768px) {
+  .tableauViz-por-produto {
+    width: 75% !important;
+    height: 38rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauViz-por-produto {
+    width: 75% !important;
+    height: 38rem !important;
+  }
 }
 
 /*# sourceMappingURL=venda-por-produto.css.map */

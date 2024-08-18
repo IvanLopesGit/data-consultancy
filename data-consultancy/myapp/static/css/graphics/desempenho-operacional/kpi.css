@@ -9,11 +9,39 @@ img {
   width: 50rem !important;
   height: 16rem !important;
 }
+@media (max-width: 768px) {
+  .tableauPlaceholder-kpi {
+    width: 100% !important;
+    height: 34rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauPlaceholder-kpi {
+    width: 100% !important;
+    height: 34rem !important;
+  }
+}
 
 .tableauViz-kpi {
   display: none;
   width: 50rem !important;
   height: 30rem;
+}
+@media (max-width: 768px) {
+  .tableauViz-kpi {
+    width: 90% !important;
+    height: 38rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauViz-kpi {
+    width: 90% !important;
+    height: 38rem !important;
+  }
+}
+
+.tab-zone tab-widget, .tabSuppressVizTooltipsAndOverlays, .tabZone-color {
+  display: none !important;
 }
 
 /*# sourceMappingURL=kpi.css.map */

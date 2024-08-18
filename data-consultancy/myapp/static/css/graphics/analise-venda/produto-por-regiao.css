@@ -9,6 +9,18 @@ img {
   width: 37rem !important;
   height: 20rem !important;
 }
+@media (max-width: 768px) {
+  .tableauPlaceholder-produto-por-regiao {
+    width: 70% !important;
+    height: 28rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauPlaceholder-produto-por-regiao {
+    width: 70% !important;
+    height: 28rem !important;
+  }
+}
 
 .tableauViz {
   display: none;
@@ -17,6 +29,18 @@ img {
 .tableauViz-produto-por-regiao {
   height: 22rem;
   width: 41rem !important;
+}
+@media (max-width: 768px) {
+  .tableauViz-produto-por-regiao {
+    width: 70% !important;
+    height: 32rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauViz-produto-por-regiao {
+    width: 70% !important;
+    height: 32rem !important;
+  }
 }
 
 /*# sourceMappingURL=produto-por-regiao.css.map */

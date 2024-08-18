@@ -8,6 +8,16 @@ img {
     &-receita {
         width: 37rem !important;
         height: 11rem !important;
+
+        @media (max-width: 768px) {
+            width: 90% !important;
+            height: 18rem !important;
+        }
+
+        @media (max-width: 480px) {
+            width: 90% !important;
+            height: 18rem !important;
+        }
     }
 }
 
@@ -15,4 +25,14 @@ img {
     display: none;
     width: 42rem !important;
     height: 13rem;
+
+    @media (max-width: 768px) {
+        width: 90% !important;
+        height: 23rem !important;
+    }
+
+    @media (max-width: 480px) {
+        width: 90% !important;
+        height: 23rem !important;
+    }
 }

@@ -9,11 +9,35 @@ img {
   width: 50rem !important;
   height: 28rem !important;
 }
+@media (max-width: 768px) {
+  .tableauPlaceholder-despesas-categoria {
+    width: 100% !important;
+    height: 42rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauPlaceholder-despesas-categoria {
+    width: 100% !important;
+    height: 42rem !important;
+  }
+}
 
 .tableauViz-despesas-categoria {
   display: none;
-  width: 50rem !important;
+  width: 65rem !important;
   height: 30rem;
+}
+@media (max-width: 768px) {
+  .tableauViz-despesas-categoria {
+    width: 90% !important;
+    height: 45rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .tableauViz-despesas-categoria {
+    width: 90% !important;
+    height: 45rem !important;
+  }
 }
 
 /*# sourceMappingURL=despesas-por-categoria.css.map */

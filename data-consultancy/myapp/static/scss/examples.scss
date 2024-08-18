@@ -1,10 +1,21 @@
-.content-container {
+/* _examples.scss */
+.examples-content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 14rem;
+    padding: 0 10%;
     line-height: 1.4rem;
     letter-spacing: 0.08rem;
+
+    @media (max-width: 768px) {
+        padding: 0 5%;
+        line-height: 2.1rem !important;
+    }
+
+    @media (max-width: 480px) {
+        padding: 0 3%;
+        line-height: 2.1rem !important;
+    }
 }
 
 .bold {
@@ -28,5 +39,13 @@
 
     p {
         margin: 1.2rem 0 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-only {
+        padding-top: 1rem;
+        display: block;
+        line-height: 0;
     }
 }

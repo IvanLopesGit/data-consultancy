@@ -8,6 +8,16 @@ img {
     &-temporal {
         width: 42rem !important;
         height: 28rem !important;
+
+        @media (max-width: 768px) {
+            width: 95% !important;
+            height: 45rem !important;
+        }
+
+        @media (max-width: 480px) {
+            width: 95% !important;
+            height: 45rem !important;
+        }
     }
 }
 
@@ -15,4 +25,14 @@ img {
     display: none;
     width: 42rem !important;
     height: 30rem;
+
+    @media (max-width: 768px) {
+        width: 90% !important;  
+        height: 48rem !important;
+    }
+
+    @media (max-width: 480px) {
+        width: 90% !important;
+        height: 48rem !important;
+    }
 }
