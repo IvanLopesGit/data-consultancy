@@ -7,19 +7,37 @@
 .about-content-container div {
   margin-bottom: 20px 20px 0 20px;
 }
-.about-content-container p {
+.about-content-container div p {
   margin: 0;
+  padding-bottom: 0.8rem;
 }
 .about-content-container .titles {
   font-size: 1.3rem;
   font-weight: 700;
 }
+@media (max-width: 768px) {
+  .about-content-container .titles {
+    font-size: 1.1rem;
+  }
+}
 .about-content-container .text-options {
   line-height: 1.4rem;
   letter-spacing: 0.08rem;
 }
-.about-content-container div p {
-  padding-bottom: 0.8rem;
+@media (max-width: 768px) {
+  .about-content-container .text-options {
+    line-height: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .about-content-container {
+    padding: 1rem 15% 0 8%;
+  }
+}
+@media (max-width: 480px) {
+  .about-content-container {
+    padding: 1rem 13% 0 8%;
+  }
 }
 
 .bold {

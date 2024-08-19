@@ -43,6 +43,10 @@
   margin: 1.2rem 0 0;
 }
 
+.mobile-only {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .mobile-only {
     padding-top: 1rem;
