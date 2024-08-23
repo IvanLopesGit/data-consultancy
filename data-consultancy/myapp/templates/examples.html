@@ -1,5 +1,22 @@
 {% extends "base.html" %}
 {% load static %}
+
+{% block metatags %}
+    <title>Exemplos de Análises de Dados</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Veja exemplos de análises de dados realizadas pela Horizon Data Labs, incluindo gráficos e dashboards interativos.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="exemplos, análises de dados, gráficos, Tableau, dashboards">
+    <!-- Meta Charset -->
+    <meta charset="UTF-8">
+    <!-- Meta Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Robots -->
+    <meta name="robots" content="index, follow">
+    <!-- Meta Autor -->
+    <meta name="author" content="Horizon Data Labs">
+{% endblock metatags %}
+
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'css/examples.css' %}">
 {% endblock extra_css %}

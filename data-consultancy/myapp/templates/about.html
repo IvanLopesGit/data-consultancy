@@ -1,5 +1,22 @@
 {% extends "base.html" %}
 {% load static %}
+
+{% block metatags %}
+    <title>Sobre a Horizon Data Labs</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Conheça a Horizon Data Labs, uma consultoria de dados focada em fornecer análises personalizadas para empresas.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="sobre, Horizon Data Labs, consultoria de dados, análises personalizadas">
+    <!-- Meta Charset -->
+    <meta charset="UTF-8">
+    <!-- Meta Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Robots -->
+    <meta name="robots" content="index, follow">
+    <!-- Meta Autor -->
+    <meta name="author" content="Horizon Data Labs">
+{% endblock metatags %}
+
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'css/about.css' %}">
 {% endblock extra_css %}

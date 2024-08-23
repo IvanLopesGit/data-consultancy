@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-v&gez-tw70pplx65g3#5(o*(t)y32o%mlu0-awmw-0-)vl-d9_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["horizondatalab.com"]
 
 
 # Application definition

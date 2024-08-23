@@ -4,6 +4,22 @@
 {% comment %} Sempre que tiver uso de arquivo estático deve-se fazer o load {% endcomment %}
 {% load static %}
 
+{% block metatags %}
+    <title>Consultoria Personalizada</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Horizon Data Labs oferece consultoria de dados especializada para transformar dados em decisões estratégicas para o seu negócio.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="consultoria de dados, análise de dados, decisões estratégicas, Horizon Data Labs">
+    <!-- Meta Charset -->
+    <meta charset="UTF-8">
+    <!-- Meta Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Robots -->
+    <meta name="robots" content="index, follow">
+    <!-- Meta Autor -->
+    <meta name="author" content="Horizon Data Labs">
+{% endblock metatags %}
+
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
 {% endblock extra_css %}

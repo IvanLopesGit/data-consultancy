@@ -1,5 +1,22 @@
 {% extends "base.html" %}
 {% load static %}
+
+{% block metatags %}
+    <title>Entre em Contato</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Entre em contato com a Horizon Data Labs para saber como podemos ajudar sua empresa a crescer com dados.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="contato, Horizon Data Labs, consultoria de dados, suporte">
+    <!-- Meta Charset -->
+    <meta charset="UTF-8">
+    <!-- Meta Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Robots -->
+    <meta name="robots" content="index, follow">
+    <!-- Meta Autor -->
+    <meta name="author" content="Horizon Data Labs">
+{% endblock metatags %}
+
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'css/contact.css' %}">
 {% endblock extra_css %}
